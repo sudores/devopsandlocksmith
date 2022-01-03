@@ -28,6 +28,13 @@ theme = "blackburn"
     pre = "<i class='fa fa-phone fa-fw'></i>"
     weight = 4
     url = "/contact/"
+  [[menu.main]]
+    name = "Knowledge base"
+    pre = "<i class='fa fa-book fa-fw'></i>"
+    weight = 4
+    url = "/kb/"
+
+
 
 [social]
   # Link your social networking accounts to the side menu
