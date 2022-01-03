@@ -1,0 +1,78 @@
+baseURL = 'http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/'
+languageCode = 'en-us'
+title = 'DevOps and Locksmith'
+theme = "blackburn"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 4
+    url = "/contact/"
+
+[social]
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  #twitter = "*"
+  #gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
+  #facebook = "*"
+  #googleplus = "*"
+  #weibo = "*"
+  #tumblr = "*"
+
+  ## SNS photo/video sharing
+  #instagram = "*"
+  #flickr = "*"
+  #photo500px = "*"
+  #pinterest = "*"
+  #youtube = "*"
+  #vimeo = "*"
+  #vine = "*"
+  #slideshare = "*"
+
+  ## SNS career oriented
+  linkedin = "andrii-horobchenko-4a32bb1b8"
+  #xing = "*"
+
+  ## SNS news
+  #reddit = "*"
+  #hackernews = "*"
+
+  ## Techie
+  github = "sudores"
+  #gitlab = "*"
+  #bitbucket = "*"
+  #stackoverflow = "*"
+  #serverfault = "*"
+  ## Gaming
+  #steam = "*"
+  #mobygames = "*"
+
+  ## Music
+  #lastfm = "*"
+  #discogs = "*"
+
+  ## Other
+  #keybase = "*"
+
