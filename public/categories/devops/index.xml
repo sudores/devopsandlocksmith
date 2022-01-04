@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOps on DevOps and Locksmith</title>
+    <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/devops/</link>
+    <description>Recent content in DevOps on DevOps and Locksmith</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jan 2022 23:11:04 +0200</lastBuildDate><atom:link href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing IaC, foreword</title>
+      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/post/implementing-iac-intro/</link>
+      <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
+      
+      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/post/implementing-iac-intro/</guid>
+      <description>Implementing IaC, foreword Now, I&amp;rsquo;m working at company which has a very weak automation. It&amp;rsquo;s really hard for me to understand why. This company has 3 system administrators (sysadmin futher) including me, and automation could save a lot of time, especially infrastructure as a code (iac futher).
+A bit of background Company i&amp;rsquo;m working for is a small product company focused on implementation of on-premise solutions with tigh cisco integration. And now we have a lot of local stands for mostly every customer, with transfer to customers power in last stages of project.</description>
+    </item>
+    
+  </channel>
+</rss>

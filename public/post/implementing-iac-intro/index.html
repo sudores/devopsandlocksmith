@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.91.0" />
+
+  <title>Implementing IaC, foreword &middot; DevOps and Locksmith</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+
+  <link rel="shortcut icon" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/contact/"><i class='fa fa-phone fa-fw'></i>Contact</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/kb/"><i class='fa fa-book fa-fw'></i>Knowledge base</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/categories/"><i class='fas fa-bars fa-fw'></i>Posts categories</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/tags/"><i class='fas fa-hashtag fa-fw'></i>Posts tags</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/andrii-horobchenko-4a32bb1b8" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/sudores" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small></small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Implementing IaC, foreword</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>03 Jan 2022, 23:11</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/iac">IaC</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/iac">iac</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/iaac">IaaC</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/iaac">iaac</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/devops">devops</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/ansible">ansible</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/terraform">terraform</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/jenkins">jenkins</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <h1 id="implementing-iac-foreword">Implementing IaC, foreword</h1>
+<p>Now, I&rsquo;m working at company which has a very weak automation.
+It&rsquo;s really hard for me to understand why.
+This company has 3 system administrators (sysadmin futher) including me,
+and automation could save a lot of time, especially infrastructure as a code (iac futher).</p>
+<h2 id="a-bit-of-background">A bit of background</h2>
+<p>Company i&rsquo;m working for is a small product company focused on implementation of on-premise
+solutions with tigh cisco integration.
+And now we have a lot of local stands for mostly every customer, with transfer to
+customers power in last stages of project.
+That stands have a lot common, starting with software installed, like an app servers,
+ending with app archives (war-s for now) placement.
+And this situation is just perfect for implementing IaC with full code development life cicle,
+like tests, code review, etc.</p>
+<h2 id="pros-and-cons-of-implementation">Pros and Cons of implementation</h2>
+<p>Pros:</p>
+<ul>
+<li>Lesser error quantity as consequence of implementing software development practices
+like code review, usage of linters and automated tests presence</li>
+<li>Posibility of fast rollback to last working state of infra as consequence of git usage</li>
+<li>Ease of changing project DevOps engineer as consequence of joint code (infra) ownership</li>
+<li>Lesser documentation quantity, in cause of code self-docmentation</li>
+<li>Infra reproduceablity in multiple environments</li>
+<li>Faster infra creature in cause of code reuse on local and customer stand</li>
+<li>IP addresses management (no more ip scanning to find free ip)
+Cons:</li>
+<li>Increased time to market in cause of tests running and and code review process</li>
+</ul>
+<h2 id="local-implementaion-proposal">Local implementaion proposal</h2>
+<p>Here is described step by step implementation of iac in our conditions, with our local peculiarities.
+But i suppose that it could be transfered to other companies with similar development and
+solution implementation process.</p>
+<p><strong>Proposed IaC stack:</strong></p>
+<ul>
+<li>Ansible for software provisioning</li>
+<li>Terraform for VM provisioning</li>
+<li>vSphere as hypervisor, private cloud provider</li>
+<li>Git as VCS</li>
+<li>Github cloud as git server implementation</li>
+<li>Jenkins as orchestrator</li>
+</ul>
+<p><strong>Used software stack:</strong></p>
+<ul>
+<li>Apache tomcat 8</li>
+<li>Redis</li>
+<li>RabbitMQ</li>
+<li>Nginx</li>
+</ul>
+<p><strong>Local peculiarities:</strong></p>
+<ul>
+<li>No IP management with dhcp</li>
+<li>No automated VM images creature</li>
+<li>Multiple stands with different software modules installed</li>
+<li>Solutions are on-premise</li>
+<li>Limited access to infrastructure on customer&rsquo;s side</li>
+<li>Limited internet access on a customer&rsquo;s side</li>
+</ul>
+<h2 id="main-rules">Main rules</h2>
+<h2 id="github-project-types">Github project types</h2>
+<p>The github projects/repos are divided to module/role project and customer project.</p>
+<h3 id="customers-project">Customer&rsquo;s project</h3>
+<p>Local stands are also should be regarded as customers.
+Customer&rsquo;s project should contain next folders with the below content:</p>
+<pre tabindex="0"><code>repo
+├── docs
+├── tf
+├── ansible
+├── .gitignore
+└── README.md
+</code></pre><ul>
+<li>docs directory, contains technical project specific documentation.</li>
+<li>tf directory, contains tf module, all hidden terraform dirs should be added to gitigonore.</li>
+<li>ansible directory, contains ansible playbook to setup simmilar stand, ansible.cfg in it specifies
+roles to be dowlnloaded to repo/ansible/roles which added to gitigonore.</li>
+</ul>
+<h3 id="terraform-module-repo">Terraform module repo</h3>
+<p>Terraform module must describe only one VM with only one software set. And follow the template below.
+README.md describes the usage of tf module.</p>
+<pre tabindex="0"><code>repo
+├── tf
+│   └── tffiles... 
+├── .gitignore
+└── README.md 
+</code></pre><h3 id="ansible-role-repo">Ansible role repo</h3>
+<p>Ansible role repo should folow the default ansible role folders layout.
+README.md describes main vars and usage of ansible role.</p>
+<pre tabindex="0"><code>repo
+├── vars
+├── defaults
+├── files
+├── handlers
+├── meta
+├── tasks
+├── templates
+├── tests
+└── README.md
+</code></pre><h3 id="documentation-repo">Documentation repo</h3>
+<p>The documentation repo contains technical documentation written in markdown.
+There are only one documentation repo, which contains the main conventions about code convetions, naming etc.</p>
+<pre tabindex="0"><code>repo
+├── files
+├── docs
+└── README.md
+</code></pre><h2 id="local-staging-stands-iac-pipeline">Local staging stands iac pipeline</h2>
+<p>The local stands infra should be delivered to them with CI/CD pipeline described below.
+<img src="/IaCConfManage.svg" alt="CI/CD infra pipeline"><br>
+CI/CD infra pipeline<br>
+The environment goes in accordance with git branch, e.g. if push was done to the dev branch
+then configuration is applied to dev environment.</p>
+<h2 id="customers-local-stands-iac">Customer&rsquo;s local stands iac</h2>
+<h3 id="deployment">Deployment</h3>
+<p>In the customer&rsquo;s local stands it&rsquo;s permissible to avoid pipeline creature if there is no ready template for it,
+and it&rsquo;s rare case but it&rsquo;s not recomended. There are several variants of deployment to customer:</p>
+<ul>
+<li>Deployment with VM template at latest stages of project (before preprod exploitation). This variant is preferred.</li>
+<li>Deployment with ansible playbooks to customer&rsquo;s premaid environment. This variat requires more attention from sysadmin and
+isn&rsquo;t recomended.</li>
+</ul>
+<h3 id="exploitation-changes">Exploitation changes</h3>
+<p>This part should be written according to experience got in practice</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>It&rsquo;s preface for the articles series about iac implementation for on-premise solutions.
+By adding new articles table of context will be updated with new atricles</p>
+
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fq6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=http%3a%2f%2fq6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=http%3a%2f%2fq6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=http%3a%2f%2fq6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fq6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=http%3a%2f%2fq6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/js/ui.js"></script>
+<script src="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
