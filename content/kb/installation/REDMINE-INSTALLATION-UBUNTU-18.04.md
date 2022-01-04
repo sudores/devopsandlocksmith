@@ -2,6 +2,8 @@
 title: "Remine Installtion"    
 date: 2022-01-03T23:11:04+02:00    
 draft: false
+tags: [kb,redmine,setup]
+categories: [kb,setup]
 ---    
 
 REDMINE INSTALLATION UBUNTU 18.04

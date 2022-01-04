@@ -14,5 +14,5 @@ The main purposes of creating is:
 I hope this blog will be helpful
 
 # About me
-I'm DevOps engineer, with interests in programming, DevOps, management and metalwork especially knifemaking. 
+I'm DevOps engineer, with interests in programming, DevOps, management and metalwork, especially knifemaking. 
 Now i'm working as Sysadmim/DevOps engineer at Smiddle LTD . 

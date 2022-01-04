@@ -33,7 +33,17 @@ diviser above
 *italic*
 ***italicBold***
 
-![Just Link](https://cdn.mos.cms.futurecdn.net/VSy6kJDNq2pSXsCzb6cvYF-970-80.jpg.webp)
 
-![Just Image](/static/best-girl-cat-names-1606245046.jpg)
-![Fuck](../../static/static)
+![Cute Cat Girl Jpeg](/9ff1aa040d99234780f774b94fee005d.jpg)  
+
+![Cute Cat Girl Gif](/anime-cute.gif)  
+
+![Cute Cat Girl WebP](/ASEE-uEwGHHstWWW2BH2vfJxw-clrRtetGyPrznOY44.webp)  
+
+![Cute Cat Girl Png](/png-transparent-anime-catgirl-female-moe-beauty-girl-child-black-hair-manga.png)  
+
+![Cute SVG](/IaCConfManage.svg)
+![Cute SVG](/CICDDeployment.svg)
+![Cute SVG](/CustomerProjectStruct.svg)
+
+
