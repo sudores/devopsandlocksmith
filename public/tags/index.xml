@@ -2,89 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on DevOps and Locksmith</title>
-    <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/</link>
+    <link>http://10.100.9.1/tags/</link>
     <description>Recent content in Tags on DevOps and Locksmith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jan 2022 23:11:04 +0200</lastBuildDate><atom:link href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jan 2022 23:11:04 +0200</lastBuildDate><atom:link href="http://10.100.9.1/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ansible</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/ansible/</link>
+      <link>http://10.100.9.1/tags/ansible/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/ansible/</guid>
+      <guid>http://10.100.9.1/tags/ansible/</guid>
       <description></description>
     </item>
     
     <item>
       <title>devops</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/devops/</link>
+      <link>http://10.100.9.1/tags/devops/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/devops/</guid>
+      <guid>http://10.100.9.1/tags/devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iaac</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/iaac/</link>
+      <link>http://10.100.9.1/tags/iaac/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/iaac/</guid>
+      <guid>http://10.100.9.1/tags/iaac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iac</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/iac/</link>
+      <link>http://10.100.9.1/tags/iac/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/iac/</guid>
+      <guid>http://10.100.9.1/tags/iac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jenkins</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/jenkins/</link>
+      <link>http://10.100.9.1/tags/jenkins/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/jenkins/</guid>
+      <guid>http://10.100.9.1/tags/jenkins/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kb</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/kb/</link>
+      <link>http://10.100.9.1/tags/kb/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/kb/</guid>
+      <guid>http://10.100.9.1/tags/kb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>redmine</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/redmine/</link>
+      <link>http://10.100.9.1/tags/redmine/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/redmine/</guid>
+      <guid>http://10.100.9.1/tags/redmine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>setup</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/setup/</link>
+      <link>http://10.100.9.1/tags/setup/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/setup/</guid>
+      <guid>http://10.100.9.1/tags/setup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>terraform</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/terraform/</link>
+      <link>http://10.100.9.1/tags/terraform/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/terraform/</guid>
+      <guid>http://10.100.9.1/tags/terraform/</guid>
       <description></description>
     </item>
     

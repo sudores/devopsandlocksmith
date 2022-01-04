@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on DevOps and Locksmith</title>
-    <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/</link>
+    <link>http://10.100.9.1/categories/</link>
     <description>Recent content in Categories on DevOps and Locksmith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jan 2022 23:11:04 +0200</lastBuildDate><atom:link href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jan 2022 23:11:04 +0200</lastBuildDate><atom:link href="http://10.100.9.1/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DevOps</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/devops/</link>
+      <link>http://10.100.9.1/categories/devops/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/devops/</guid>
+      <guid>http://10.100.9.1/categories/devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IaC</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/iac/</link>
+      <link>http://10.100.9.1/categories/iac/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/iac/</guid>
+      <guid>http://10.100.9.1/categories/iac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Implementation</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/implementation/</link>
+      <link>http://10.100.9.1/categories/implementation/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/implementation/</guid>
+      <guid>http://10.100.9.1/categories/implementation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kb</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/kb/</link>
+      <link>http://10.100.9.1/categories/kb/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/kb/</guid>
+      <guid>http://10.100.9.1/categories/kb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>setup</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/setup/</link>
+      <link>http://10.100.9.1/categories/setup/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/setup/</guid>
+      <guid>http://10.100.9.1/categories/setup/</guid>
       <description></description>
     </item>
     
