@@ -46,7 +46,7 @@
 
   
 
-  <link rel="shortcut icon" href="http://10.100.9.1/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/img/favicon.ico" type="image/x-icon" />
 
   
   
@@ -240,21 +240,21 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="http://10.100.9.1/tags/iac">IaC</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/iac">IaC</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="http://10.100.9.1/tags/iac">iac</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/iac">iac</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="http://10.100.9.1/tags/iaac">IaaC</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/iaac">IaaC</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="http://10.100.9.1/tags/iaac">iaac</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/iaac">iaac</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="http://10.100.9.1/tags/devops">devops</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/devops">devops</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="http://10.100.9.1/tags/ansible">ansible</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/ansible">ansible</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="http://10.100.9.1/tags/terraform">terraform</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/terraform">terraform</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="http://10.100.9.1/tags/jenkins">jenkins</a>
+      <a class="post-taxonomy-tag" href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/tags/jenkins">jenkins</a>
     
   </div>
   
@@ -265,34 +265,34 @@
   <h1 id="implementing-iac-foreword">Implementing IaC, foreword</h1>
 <p>Now, I&rsquo;m working at company which has a very weak automation.
 It&rsquo;s really hard for me to understand why.
-This company has 3 system administrators (sysadmin futher) including me,
-and automation could save a lot of time, especially infrastructure as a code (iac futher).</p>
+This company has 3 system administrators (sysadmin further) including me,
+and automation could save a lot of time, especially infrastructure as a code (iac further).</p>
 <h2 id="a-bit-of-background">A bit of background</h2>
 <p>Company i&rsquo;m working for is a small product company focused on implementation of on-premise
-solutions with tigh cisco integration.
+solutions with tight cisco integration.
 And now we have a lot of local stands for mostly every customer, with transfer to
 customers power in last stages of project.
 That stands have a lot common, starting with software installed, like an app servers,
 ending with app archives (war-s for now) placement.
-And this situation is just perfect for implementing IaC with full code development life cicle,
+And this situation is just perfect for implementing iac with full code development life cycle,
 like tests, code review, etc.</p>
 <h2 id="pros-and-cons-of-implementation">Pros and Cons of implementation</h2>
 <p>Pros:</p>
 <ul>
 <li>Lesser error quantity as consequence of implementing software development practices
 like code review, usage of linters and automated tests presence</li>
-<li>Posibility of fast rollback to last working state of infra as consequence of git usage</li>
+<li>Possibility of fast rollback to last working state of infra as consequence of git usage</li>
 <li>Ease of changing project DevOps engineer as consequence of joint code (infra) ownership</li>
 <li>Lesser documentation quantity, in cause of code self-docmentation</li>
-<li>Infra reproduceablity in multiple environments</li>
+<li>Infra reproduciblity in multiple environments</li>
 <li>Faster infra creature in cause of code reuse on local and customer stand</li>
 <li>IP addresses management (no more ip scanning to find free ip)
 Cons:</li>
-<li>Increased time to market in cause of tests running and and code review process</li>
+<li>Increased time to market in cause of tests running and code review process</li>
 </ul>
-<h2 id="local-implementaion-proposal">Local implementaion proposal</h2>
+<h2 id="local-implementation-proposal">Local implementation proposal</h2>
 <p>Here is described step by step implementation of iac in our conditions, with our local peculiarities.
-But i suppose that it could be transfered to other companies with similar development and
+But i suppose that it could be helpful for other companies with similar development and
 solution implementation process.</p>
 <p><strong>Proposed IaC stack:</strong></p>
 <ul>
@@ -334,8 +334,8 @@ Customer&rsquo;s project should contain next folders with the below content:</p>
 </code></pre><ul>
 <li>docs directory, contains technical project specific documentation.</li>
 <li>tf directory, contains tf module, all hidden terraform dirs should be added to gitigonore.</li>
-<li>ansible directory, contains ansible playbook to setup simmilar stand, ansible.cfg in it specifies
-roles to be dowlnloaded to repo/ansible/roles which added to gitigonore.</li>
+<li>ansible directory, contains ansible playbook to setup similar stand, ansible.cfg in it specifies
+roles to be downloaded by path repo/ansible/roles which added to gitigonore.</li>
 </ul>
 <h3 id="terraform-module-repo">Terraform module repo</h3>
 <p>Terraform module must describe only one VM with only one software set. And follow the template below.
@@ -346,7 +346,7 @@ README.md describes the usage of tf module.</p>
 ├── .gitignore
 └── README.md 
 </code></pre><h3 id="ansible-role-repo">Ansible role repo</h3>
-<p>Ansible role repo should folow the default ansible role folders layout.
+<p>Ansible role repo should follow the default ansible role folders layout.
 README.md describes main vars and usage of ansible role.</p>
 <pre tabindex="0"><code>repo
 ├── vars
@@ -374,32 +374,32 @@ then configuration is applied to dev environment.</p>
 <h2 id="customers-local-stands-iac">Customer&rsquo;s local stands iac</h2>
 <h3 id="deployment">Deployment</h3>
 <p>In the customer&rsquo;s local stands it&rsquo;s permissible to avoid pipeline creature if there is no ready template for it,
-and it&rsquo;s rare case but it&rsquo;s not recomended. There are several variants of deployment to customer:</p>
+and it&rsquo;s rare case but it&rsquo;s not recommended. There are several variants of deployment to customer:</p>
 <ul>
 <li>Deployment with VM template at latest stages of project (before preprod exploitation). This variant is preferred.</li>
 <li>Deployment with ansible playbooks to customer&rsquo;s premaid environment. This variat requires more attention from sysadmin and
-isn&rsquo;t recomended.</li>
+isn&rsquo;t recommended.</li>
 </ul>
 <h3 id="exploitation-changes">Exploitation changes</h3>
 <p>This part should be written according to experience got in practice</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>It&rsquo;s preface for the articles series about iac implementation for on-premise solutions.
-By adding new articles table of context will be updated with new atricles</p>
+By adding new articles table of context will be updated with new articles.</p>
 
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2f10.100.9.1%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fq6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=http%3a%2f%2f10.100.9.1%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	<li><a href="https://twitter.com/intent/tweet?source=http%3a%2f%2fq6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=http%3a%2f%2f10.100.9.1%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	<li><a href="https://plus.google.com/share?url=http%3a%2f%2fq6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=http%3a%2f%2f10.100.9.1%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	<li><a href="http://www.tumblr.com/share?v=3&u=http%3a%2f%2fq6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2f10.100.9.1%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	<li><a href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fq6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=http%3a%2f%2f10.100.9.1%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	<li><a href="http://www.reddit.com/submit?url=http%3a%2f%2fq6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion%2fpost%2fimplementing-iac-intro%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
 	</li>
 </ul>
 
@@ -458,8 +458,8 @@ By adding new articles table of context will be updated with new atricles</p>
 
 </div>
 </div>
-<script src="http://10.100.9.1/js/ui.js"></script>
-<script src="http://10.100.9.1/js/menus.js"></script>
+<script src="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/js/ui.js"></script>
+<script src="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/js/menus.js"></script>
 
 
 

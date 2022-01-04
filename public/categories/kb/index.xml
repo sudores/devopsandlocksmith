@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>kb on DevOps and Locksmith</title>
-    <link>http://10.100.9.1/categories/kb/</link>
+    <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/kb/</link>
     <description>Recent content in kb on DevOps and Locksmith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jan 2022 23:11:04 +0200</lastBuildDate><atom:link href="http://10.100.9.1/categories/kb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jan 2022 23:11:04 +0200</lastBuildDate><atom:link href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/categories/kb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Remine Installtion</title>
-      <link>http://10.100.9.1/kb/installation/redmine-installation-ubuntu-18.04/</link>
+      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/installation/redmine-installation-ubuntu-18.04/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://10.100.9.1/kb/installation/redmine-installation-ubuntu-18.04/</guid>
+      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/installation/redmine-installation-ubuntu-18.04/</guid>
       <description>REDMINE INSTALLATION UBUNTU 18.04 https://kifarunix.com/install-redmine-with-mariadb-on-debian-10-buster/
 Install Mariadb
 apt install mariadb-server-10.1/bionic-updates mariadb-server-core-10.1/bionic-updates mariadb-client-core-10.1/bionic-updates mariadb-client-10.1/bionic-updates mariadb-server/bionic-updates Install Necessary deps
