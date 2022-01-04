@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DevOps and Locksmith</title>
-    <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/</link>
+    <link>http://10.100.9.1/</link>
     <description>Recent content on DevOps and Locksmith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jan 2022 23:11:04 +0200</lastBuildDate><atom:link href="http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jan 2022 23:11:04 +0200</lastBuildDate><atom:link href="http://10.100.9.1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Add cert to java trust store</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/java/add-cert/</link>
+      <link>http://10.100.9.1/kb/java/add-cert/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/java/add-cert/</guid>
+      <guid>http://10.100.9.1/kb/java/add-cert/</guid>
       <description>Added by next command ${java_home}/bin/keytool -import -alias ${certAliasInStor} -file ${path2cert} -keystore ${path2keystore}</description>
     </item>
     
     <item>
       <title>Add key/cert to tomcat trust store</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/java/tomcat/setup-tomcat-trust-store/</link>
+      <link>http://10.100.9.1/kb/java/tomcat/setup-tomcat-trust-store/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/java/tomcat/setup-tomcat-trust-store/</guid>
+      <guid>http://10.100.9.1/kb/java/tomcat/setup-tomcat-trust-store/</guid>
       <description>Add options below to setenv or startup
 &amp;#34;-Djavax.net.ssl.trustStore=/tomcat/server.truststore -Djavax.net.ssl.trustStorePassword&amp;#34; e.g
 JAVA_OPTS=&amp;#34;$JAVA_OPTS-Djavax.net.ssl.trustStore=${path2it}-Djavax.net.ssl.trustStorePassword=changeit&amp;#34; </description>
@@ -29,19 +29,19 @@ JAVA_OPTS=&amp;#34;$JAVA_OPTS-Djavax.net.ssl.trustStore=${path2it}-Djavax.net.ss
     
     <item>
       <title>Build Smiddle multiscript gadjet</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/products/multi_sctipt_gadget/main/</link>
+      <link>http://10.100.9.1/kb/products/multi_sctipt_gadget/main/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/products/multi_sctipt_gadget/main/</guid>
+      <guid>http://10.100.9.1/kb/products/multi_sctipt_gadget/main/</guid>
       <description>Setup multiscript gadget for SmiddleOmniChannel Multiscript gadget Multiscript gadget build instruction  clone git repository to your folder open terminal and go to your folder and then enter command npm install change config variables (URL) in public/index.html    &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot; /&amp;gt; &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1&amp;quot; /&amp;gt; &amp;lt;title&amp;gt;React App&amp;lt;/title&amp;gt; &amp;lt;script&amp;gt; var LOGIN_URL = &amp;quot;https://API_GATEWAY_URL/SmiddleAuthorizationServer/sas/auth&amp;quot;; var GET_SESSION_URL = &amp;quot;https://API_GATEWAY_URL/MessengerGateway/smc/chat/message/session&amp;quot;; var FILE_STORAGE_URL = &amp;quot;https://API_GATEWAY_URL/SmiddleFileStorage/sfs/files&amp;quot;; var ADM_CURRENT_USER_URL = &amp;quot;https://API_GATEWAY_URL/SmiddleManager/adm/management/users/current&amp;quot;; var WS_URL = &amp;quot;wss://API_GATEWAY_URL/SocialMinerConnector/webSocket/751&amp;quot;; var EXECUTOR_IFRAME_URL = &amp;quot;https://API_GATEWAY_URL/executor/?</description>
     </item>
     
     <item>
       <title>Create and restore backup mysql</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/mysql/backup-restore/</link>
+      <link>http://10.100.9.1/kb/mysql/backup-restore/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/mysql/backup-restore/</guid>
+      <guid>http://10.100.9.1/kb/mysql/backup-restore/</guid>
       <description>Full db backup
 mysqldump --all-databases --single-transaction --quick --lock-tables=false &amp;gt; full-backup.sql -u root -p Partial db backup
 mysqldump -u [user] -p [database_name] &amp;gt; [filename].sql Restore full db backup
@@ -51,19 +51,19 @@ mysql -u [user] -p [database_name] &amp;lt; [filename].sql </description>
     
     <item>
       <title>Create user mysql</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/mysql/user-create/</link>
+      <link>http://10.100.9.1/kb/mysql/user-create/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/mysql/user-create/</guid>
+      <guid>http://10.100.9.1/kb/mysql/user-create/</guid>
       <description>CREATE USER &amp;#39;user&amp;#39;@&amp;#39;%&amp;#39; IDENTIFIED BY &amp;#39;SecurePass&amp;#39;;	wildcards % - all/every</description>
     </item>
     
     <item>
       <title>Enable ssl debug tomcat</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/java/tomcat/enable-debug/</link>
+      <link>http://10.100.9.1/kb/java/tomcat/enable-debug/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/java/tomcat/enable-debug/</guid>
+      <guid>http://10.100.9.1/kb/java/tomcat/enable-debug/</guid>
       <description>Add option to java java startup options &amp;ldquo;-Djaavx.net.debug=all&amp;rdquo;
 Could be done with adding it to next files ${catalina.home}/bin/startup.sh ${catalina.home}/bin/setenv.sh
 Or to systemctl unit file JAVA_OPTS=&amp;quot;$JAVA_OPTS -Djavax.net.debug=all&amp;quot;</description>
@@ -71,30 +71,30 @@ Or to systemctl unit file JAVA_OPTS=&amp;quot;$JAVA_OPTS -Djavax.net.debug=all&a
     
     <item>
       <title>Grant permissions to user on db</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/mysql/grant-permissions_user/</link>
+      <link>http://10.100.9.1/kb/mysql/grant-permissions_user/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/mysql/grant-permissions_user/</guid>
+      <guid>http://10.100.9.1/kb/mysql/grant-permissions_user/</guid>
       <description>GRANT &amp;lt;permission_type&amp;gt; ON database.table TO &amp;#39;&amp;lt;username&amp;gt;&amp;#39;@&amp;#39;&amp;lt;host&amp;gt;&amp;#39;; Grant all permission on all databases to user from any host
 GRANT all on *.* to &amp;#39;&amp;lt;user&amp;gt;&amp;#39;@&amp;#39;%&amp;#39;; </description>
     </item>
     
     <item>
       <title>Implementing IaC, foreword</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/post/implementing-iac-intro/</link>
+      <link>http://10.100.9.1/post/implementing-iac-intro/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/post/implementing-iac-intro/</guid>
+      <guid>http://10.100.9.1/post/implementing-iac-intro/</guid>
       <description>Implementing IaC, foreword Now, I&amp;rsquo;m working at company which has a very weak automation. It&amp;rsquo;s really hard for me to understand why. This company has 3 system administrators (sysadmin further) including me, and automation could save a lot of time, especially infrastructure as a code (iac further).
 A bit of background Company i&amp;rsquo;m working for is a small product company focused on implementation of on-premise solutions with tight cisco integration. And now we have a lot of local stands for mostly every customer, with transfer to customers power in last stages of project.</description>
     </item>
     
     <item>
       <title>Remine Installtion</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/installation/redmine-installation-ubuntu-18.04/</link>
+      <link>http://10.100.9.1/kb/installation/redmine-installation-ubuntu-18.04/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/installation/redmine-installation-ubuntu-18.04/</guid>
+      <guid>http://10.100.9.1/kb/installation/redmine-installation-ubuntu-18.04/</guid>
       <description>REDMINE INSTALLATION UBUNTU 18.04 https://kifarunix.com/install-redmine-with-mariadb-on-debian-10-buster/
 Install Mariadb
 apt install mariadb-server-10.1/bionic-updates mariadb-server-core-10.1/bionic-updates mariadb-client-core-10.1/bionic-updates mariadb-client-10.1/bionic-updates mariadb-server/bionic-updates Install Necessary deps
@@ -108,28 +108,28 @@ systemctl enable --now mysql Run secure installation</description>
     
     <item>
       <title>Reset root password mysql 5.7</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/mysql/root-pass-reset/</link>
+      <link>http://10.100.9.1/kb/mysql/root-pass-reset/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/mysql/root-pass-reset/</guid>
+      <guid>http://10.100.9.1/kb/mysql/root-pass-reset/</guid>
       <description>Stop mysql:  systemctl stop mysqld Set the mySQL environment option  systemctl set-environment MYSQLD_OPTS=&amp;#34;--skip-grant-tables&amp;#34; Start mysql usig the options you just set  systemctl start mysqld Login as root  mysql -u root Update the root user password with these mysql commands  UPDATE mysql.user SET authentication_string = PASSWORD(&amp;#39;MyNewPassword&amp;#39;) WHERE User = &amp;#39;root&amp;#39; AND Host = &amp;#39;localhost&amp;#39;; FLUSH PRIVILEGES; QUIT *** Edit *** As mentioned my shokulei in the comments, for 5.</description>
     </item>
     
     <item>
       <title>Setup rabbitmq cluster admin user</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/rabbitmq/cluster_setup/</link>
+      <link>http://10.100.9.1/kb/rabbitmq/cluster_setup/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/kb/rabbitmq/cluster_setup/</guid>
+      <guid>http://10.100.9.1/kb/rabbitmq/cluster_setup/</guid>
       <description>rabbitmqctl add_user username pass # add user rabbitmqctl set_user_tags username administrator # set user tag to admin rabbitmqctl set_permissions -p / developer &amp;#34;.*&amp;#34; &amp;#34;.*&amp;#34; &amp;#34;.*&amp;#34; # grant root perm-s rabbitmqctl set_policy ha-all &amp;#34;.*&amp;#34; &amp;#39;{&amp;#34;ha-mode&amp;#34;:&amp;#34;all&amp;#34;}&amp;#39; # set all queues full mirroring </description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/contact/</link>
+      <link>http://10.100.9.1/contact/</link>
       <pubDate>Sun, 02 Jan 2022 18:04:27 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/contact/</guid>
+      <guid>http://10.100.9.1/contact/</guid>
       <description>A bit of my contacts telegram: @tetrds
 linkedin: link
 email: gas@cock.li
@@ -140,10 +140,10 @@ signature: link</description>
     
     <item>
       <title>About</title>
-      <link>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/about/</link>
+      <link>http://10.100.9.1/about/</link>
       <pubDate>Sun, 02 Jan 2022 17:41:05 +0200</pubDate>
       
-      <guid>http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/about/</guid>
+      <guid>http://10.100.9.1/about/</guid>
       <description>About blog This is prety simple blog running hugo. Mostly here will be tutorials, and a bit of my experience, like implementation of engineering practices. The main purposes of creating is:
  share my knowledge base with world make my knowledge base easily accessible Practice and improve my english and article writing skills I hope this blog will be helpful  About me I&amp;rsquo;m DevOps engineer, with interests in programming, DevOps, management and metalwork, especially knifemaking.</description>
     </item>
