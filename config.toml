@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'DevOps and Locksmith'
 theme = "blackburn"
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [menu]
   # Shown in the side menu.
   [[menu.main]]
@@ -12,29 +16,37 @@ theme = "blackburn"
     identifier = "home"
     url = "/"
   [[menu.main]]
-    name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 2
-    identifier = "post"
-    url = "/post/"
-  [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 3
     identifier = "about"
     url = "/about/"
   [[menu.main]]
-    name = "Contact"
-    pre = "<i class='fa fa-phone fa-fw'></i>"
-    weight = 4
-    url = "/contact/"
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
   [[menu.main]]
     name = "Knowledge base"
     pre = "<i class='fa fa-book fa-fw'></i>"
     weight = 4
     url = "/kb/"
-
-
+  [[menu.main]]
+    name = "Posts categories"
+    pre = "<i class='fas fa-bars fa-fw'></i>"
+    weight = 4
+    url = "/categories/"
+  [[menu.main]]
+    name = "Posts tags"
+    pre = "<i class='fas fa-hashtag fa-fw'></i>"
+    weight = 4
+    url = "/tags/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 4
+    url = "/contact/"
 
 [social]
   # Link your social networking accounts to the side menu
