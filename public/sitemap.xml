@@ -2,100 +2,100 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://10.100.9.1/kb/java/add-cert/</loc>
+    <loc>http://80.208.230.95/kb/java/add-cert/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/kb/java/tomcat/setup-tomcat-trust-store/</loc>
+    <loc>http://80.208.230.95/kb/java/tomcat/setup-tomcat-trust-store/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/tags/ansible/</loc>
+    <loc>http://80.208.230.95/tags/ansible/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/kb/products/multi_sctipt_gadget/main/</loc>
+    <loc>http://80.208.230.95/kb/products/multi_sctipt_gadget/main/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/categories/</loc>
+    <loc>http://80.208.230.95/categories/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/kb/mysql/backup-restore/</loc>
+    <loc>http://80.208.230.95/kb/mysql/backup-restore/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/kb/mysql/user-create/</loc>
+    <loc>http://80.208.230.95/kb/mysql/user-create/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/categories/devops/</loc>
+    <loc>http://80.208.230.95/categories/devops/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/tags/devops/</loc>
+    <loc>http://80.208.230.95/tags/devops/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/</loc>
+    <loc>http://80.208.230.95/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/kb/java/tomcat/enable-debug/</loc>
+    <loc>http://80.208.230.95/kb/java/tomcat/enable-debug/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/kb/mysql/grant-permissions_user/</loc>
+    <loc>http://80.208.230.95/kb/mysql/grant-permissions_user/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/tags/iaac/</loc>
+    <loc>http://80.208.230.95/tags/iaac/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/categories/iac/</loc>
+    <loc>http://80.208.230.95/categories/iac/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/tags/iac/</loc>
+    <loc>http://80.208.230.95/tags/iac/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/categories/implementation/</loc>
+    <loc>http://80.208.230.95/categories/implementation/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/post/implementing-iac-intro/</loc>
+    <loc>http://80.208.230.95/post/implementing-iac-intro/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/tags/jenkins/</loc>
+    <loc>http://80.208.230.95/tags/jenkins/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/tags/kb/</loc>
+    <loc>http://80.208.230.95/tags/kb/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/categories/kb/</loc>
+    <loc>http://80.208.230.95/categories/kb/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/kb/</loc>
+    <loc>http://80.208.230.95/kb/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/post/</loc>
+    <loc>http://80.208.230.95/post/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/tags/redmine/</loc>
+    <loc>http://80.208.230.95/tags/redmine/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/kb/installation/redmine-installation-ubuntu-18.04/</loc>
+    <loc>http://80.208.230.95/kb/installation/redmine-installation-ubuntu-18.04/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/kb/mysql/root-pass-reset/</loc>
+    <loc>http://80.208.230.95/kb/mysql/root-pass-reset/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/tags/setup/</loc>
+    <loc>http://80.208.230.95/tags/setup/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/categories/setup/</loc>
+    <loc>http://80.208.230.95/categories/setup/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/kb/rabbitmq/cluster_setup/</loc>
+    <loc>http://80.208.230.95/kb/rabbitmq/cluster_setup/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/tags/</loc>
+    <loc>http://80.208.230.95/tags/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/tags/terraform/</loc>
+    <loc>http://80.208.230.95/tags/terraform/</loc>
     <lastmod>2022-01-03T23:11:04+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/contact/</loc>
+    <loc>http://80.208.230.95/contact/</loc>
     <lastmod>2022-01-02T18:04:27+02:00</lastmod>
   </url><url>
-    <loc>http://10.100.9.1/about/</loc>
+    <loc>http://80.208.230.95/about/</loc>
     <lastmod>2022-01-02T17:41:05+02:00</lastmod>
   </url>
 </urlset>

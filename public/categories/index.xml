@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on DevOps and Locksmith</title>
-    <link>http://10.100.9.1/categories/</link>
+    <link>http://80.208.230.95/categories/</link>
     <description>Recent content in Categories on DevOps and Locksmith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jan 2022 23:11:04 +0200</lastBuildDate><atom:link href="http://10.100.9.1/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jan 2022 23:11:04 +0200</lastBuildDate><atom:link href="http://80.208.230.95/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DevOps</title>
-      <link>http://10.100.9.1/categories/devops/</link>
+      <link>http://80.208.230.95/categories/devops/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://10.100.9.1/categories/devops/</guid>
+      <guid>http://80.208.230.95/categories/devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IaC</title>
-      <link>http://10.100.9.1/categories/iac/</link>
+      <link>http://80.208.230.95/categories/iac/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://10.100.9.1/categories/iac/</guid>
+      <guid>http://80.208.230.95/categories/iac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Implementation</title>
-      <link>http://10.100.9.1/categories/implementation/</link>
+      <link>http://80.208.230.95/categories/implementation/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://10.100.9.1/categories/implementation/</guid>
+      <guid>http://80.208.230.95/categories/implementation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kb</title>
-      <link>http://10.100.9.1/categories/kb/</link>
+      <link>http://80.208.230.95/categories/kb/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://10.100.9.1/categories/kb/</guid>
+      <guid>http://80.208.230.95/categories/kb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>setup</title>
-      <link>http://10.100.9.1/categories/setup/</link>
+      <link>http://80.208.230.95/categories/setup/</link>
       <pubDate>Mon, 03 Jan 2022 23:11:04 +0200</pubDate>
       
-      <guid>http://10.100.9.1/categories/setup/</guid>
+      <guid>http://80.208.230.95/categories/setup/</guid>
       <description></description>
     </item>
     
