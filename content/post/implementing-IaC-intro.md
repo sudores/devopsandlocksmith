@@ -3,7 +3,7 @@ title: "Implementing IaC, foreword"
 date: 2022-01-03T23:11:04+02:00
 tags: [IaC,iac,IaaC,iaac,devops,ansible,terraform,jenkins]
 categories: [DevOps,IaC,Implementation]
-draft: false
+draft: true
 ---
 
 # Implementing IaC, foreword 
@@ -17,11 +17,11 @@ and automation could save a lot of time, especially infrastructure as a code (ia
 
 Company i'm working for is a small product company focused on implementation of on-premise
 solutions with tight cisco integration. 
-And now we have a lot of local stands for mostly every customer, with transfer to 
-customers power in last stages of project. 
+And we have a lot of local stands for mostly every customer, with transfer to 
+the customer's  infra on last stages of project. 
 That stands have a lot common, starting with software installed, like an app servers, 
-ending with app archives (war-s for now) placement. 
-And this situation is just perfect for implementing iac with full code development life cycle,
+ending with app archives placement. 
+And as for me this situation is just perfect for implementing iac with full code development life cycle,
 like tests, code review, etc.
 
 ## Pros and Cons of implementation
