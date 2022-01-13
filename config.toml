@@ -2,6 +2,7 @@ baseURL = 'http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion
 languageCode = 'en-us'
 title = 'DevOps and Locksmith'
 theme = "blackburn"
+pluralizelisttitles = "false"
 
 [taxonomies]
   tag = "tags"
@@ -22,7 +23,7 @@ theme = "blackburn"
     identifier = "about"
     url = "/about/"
   [[menu.main]]
-    name = "Posts"
+    name = "post"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 2
     identifier = "post"
@@ -43,10 +44,10 @@ theme = "blackburn"
     weight = 4
     url = "/tags/"
   [[menu.main]]
-    name = "Contact"
+    name = "Contacts"
     pre = "<i class='fa fa-phone fa-fw'></i>"
     weight = 4
-    url = "/contact/"
+    url = "/contacts/"
 
 [social]
   # Link your social networking accounts to the side menu
@@ -94,5 +95,5 @@ theme = "blackburn"
 
   ## Other
   #keybase = "*"
-  telegram = "j1ckan"
+  telegram = "tetrds"
 
