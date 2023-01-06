@@ -1,0 +1,3 @@
+[submodule "themes/blackburn"]
+	path = themes/blackburn
+	url = ssh://git@git.ttk.loc:16992/gz/modified-blackburn.git
