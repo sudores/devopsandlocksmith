@@ -1,6 +1,5 @@
 pipeline {
-    //agent { docker { image "alpine:latest"}}
-    agent none
+    agent any
     environment {
        vpn   = "http://blog.ttk.loc"
        tor   = "http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/"
@@ -8,7 +7,6 @@ pipeline {
     } 
     stages {
         stage("Build") {
-            agent { docker { image "alpine:latest"}}
             steps {
                 script {
                     sh("apk add --no-cache hugo")
@@ -19,7 +17,6 @@ pipeline {
             }
         }
         stage("Deploy"){
-            agent { docker { image "alpine:latest"}}
             steps("Deploy") {
                 script {
                     echo("Deployment") 
