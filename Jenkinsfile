@@ -1,8 +1,7 @@
 pipeline {
     agent {
         docker {
-            image "gohugoio/hugo"
-            label "latest"
+            image "gohugoio/hugo:latest"
         }
     }
     environment {
