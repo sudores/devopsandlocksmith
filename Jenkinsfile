@@ -9,9 +9,9 @@ pipeline {
         stage("Build") {
             steps {
                 script {
-                    sh("hugo --config config.toml --baseURL $clear -d $clear")
-                    sh("hugo --config config.toml --baseURL $vpn   -d $vpn")
-                    sh("hugo --config config.toml --baseURL $tor   -d $tor")
+                    sh("hugo --config config.toml --baseURL $clear -d `echo $clear | cut -f '3' -d'/'`")
+                    sh("hugo --config config.toml --baseURL $vpn   -d `echo $vpn   | cut -f '3' -d'/'`")
+                    sh("hugo --config config.toml --baseURL $tor   -d `echo $tor   | cut -f '3' -d'/'`")
                 }
             }
         }
