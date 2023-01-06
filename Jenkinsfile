@@ -1,5 +1,6 @@
 pipeline {
     //agent { docker { image "alpine:latest"}}
+    agent any
     environment {
        vpn   = "http://blog.ttk.loc"
        tor   = "http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/"
