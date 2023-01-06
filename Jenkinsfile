@@ -22,7 +22,7 @@ pipeline {
                 script {
                     echo("Deployment") 
                     // Removing old versions
-                    sh("ssh    -i~/.ssh/id_ed25519 'rm -rf /opt/hugoClear/* /opt/hugoVpn/* /opt/hugoTor/*'")
+                    sh("ssh    -i~/.ssh/id_ed25519 deploy@blog.ttk.loc 'rm -rf /opt/hugoClear/* /opt/hugoVpn/* /opt/hugoTor/*'")
 
                     // Deploing
                     sh("scp -r -i~/.ssh/id_ed25519 `echo $clear | cut -f '3' -d'/'`/* deploy@blog.ttk.loc:/opt/hugoClear")
