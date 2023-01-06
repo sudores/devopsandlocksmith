@@ -21,8 +21,13 @@ pipeline {
             steps("Deploy") {
                 script {
                     echo("Deployment") 
-                    sh("ls -a")
-                    sh("pwd")
+                    // Removing old versions
+                    sh("ssh    -i~/.ssh/id_ed25519 'rm -rf /opt/hugoClear/* /opt/hugoVpn/* /opt/hugoTor/*'")
+
+                    // Deploing
+                    sh("scp -r -i~/.ssh/id_ed25519 `echo $clear | cut -f '3' -d'/'`/* deploy@blog.ttk.loc:/opt/hugoClear")
+                    sh("scp -r -i~/.ssh/id_ed25519 `echo $vpn   | cut -f '3' -d'/'`/* deploy@blog.ttk.loc:/opt/hugoVpn")
+                    sh("scp -r -i~/.ssh/id_ed25519 `echo $tor   | cut -f '3' -d'/'`/* deploy@blog.ttk.loc:/opt/hugoTor")
                 }
             }
         }
