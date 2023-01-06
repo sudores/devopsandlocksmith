@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image "gohugoio/hugo:latest"
+            image "alpine:latest"
         }
     }
     environment {
@@ -10,6 +10,13 @@ pipeline {
        clear = "https://gzttk.org/"
     } 
     stages {
+        stage("Install") {
+            steps {
+                script {
+                    sh("apk add --no-cache hugo")
+                }
+            }
+        }
         stage("Build") {
             steps {
                 script {
