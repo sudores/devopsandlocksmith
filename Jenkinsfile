@@ -6,18 +6,22 @@ pipeline {
        clear = "https://gzttk.org/"
     } 
     stages {
-        steps("Build") {
-            script {
-                sh("hugo --config config.toml --baseURL $clear -d $clear")
-                sh("hugo --config config.toml --baseURL $vpn   -d $vpn")
-                sh("hugo --config config.toml --baseURL $tor   -d $tor")
+        stage("Build") {
+            steps {
+                script {
+                    sh("hugo --config config.toml --baseURL $clear -d $clear")
+                    sh("hugo --config config.toml --baseURL $vpn   -d $vpn")
+                    sh("hugo --config config.toml --baseURL $tor   -d $tor")
+                }
             }
         }
-        steps("Deploy") {
-            script {
-                echo("Deployment") 
-                sh("ls -a")
-                sh("pwd")
+        stage("Deploy"){
+            steps("Deploy") {
+                script {
+                    echo("Deployment") 
+                    sh("ls -a")
+                    sh("pwd")
+                }
             }
         }
     }
