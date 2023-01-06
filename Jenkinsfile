@@ -9,7 +9,6 @@ pipeline {
         stage("Build") {
             steps {
                 script {
-                    sh("apk add --no-cache hugo")
                     sh("hugo --config config.toml --baseURL $clear -d $clear")
                     sh("hugo --config config.toml --baseURL $vpn   -d $vpn")
                     sh("hugo --config config.toml --baseURL $tor   -d $tor")
