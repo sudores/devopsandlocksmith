@@ -1,25 +1,16 @@
 pipeline {
-    agent {
-        docker {
-            image "alpine:latest"
-        }
-    }
+    agent { docker { image "alpine:latest"}}
     environment {
        vpn   = "http://blog.ttk.loc"
        tor   = "http://q6ft5vxol7xt4az7ibmub3xsyyqqsbmm35g7xcnhoijpulez33zupwad.onion/"
        clear = "https://gzttk.org/"
     } 
     stages {
-        stage("Install") {
+        stage("Build") {
+            agent { docker { image "alpine:latest"}}
             steps {
                 script {
                     sh("apk add --no-cache hugo")
-                }
-            }
-        }
-        stage("Build") {
-            steps {
-                script {
                     sh("hugo --config config.toml --baseURL $clear -d $clear")
                     sh("hugo --config config.toml --baseURL $vpn   -d $vpn")
                     sh("hugo --config config.toml --baseURL $tor   -d $tor")
