@@ -4,6 +4,12 @@ name: devopsandlocksmith
 
 steps:
   - name: Build clear
-    image: gohugoio/hugo:latest
+    image: amazon/aws-cli:latest
     commands:
-      - 
+      - yum install tar gzip -y; chmod +x ./hugo; mv ./hugo /usr/local/bin;
+      - hugo # building site
+      - hugo deploy --targets=master
+    when:
+      branch:
+      - master
+
