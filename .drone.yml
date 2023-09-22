@@ -1,0 +1,9 @@
+kind: pipeline
+type: docker
+name: devopsandlocksmith
+
+steps:
+  - name: Build clear
+    image: gohugoio/hugo:latest
+    commands:
+      - 
