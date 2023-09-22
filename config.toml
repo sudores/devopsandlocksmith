@@ -28,12 +28,7 @@ pluralizelisttitles = "false"
     weight = 2
     identifier = "post"
     url = "/post/"
-  [[menu.main]]
-    name = "Knowledge base"
-    pre = "<i class='fa fa-book fa-fw'></i>"
-    weight = 4
-    url = "/kb/"
-  [[menu.main]]
+   [[menu.main]]
     name = "Posts categories"
     pre = "<i class='fas fa-bars fa-fw'></i>"
     weight = 4
@@ -55,45 +50,35 @@ pluralizelisttitles = "false"
 
   # SNS microblogging
   #twitter = "*"
-  #gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
-  #facebook = "*"
-  #googleplus = "*"
-  #weibo = "*"
-  #tumblr = "*"
-
-  ## SNS photo/video sharing
-  #instagram = "*"
-  #flickr = "*"
-  #photo500px = "*"
-  #pinterest = "*"
-  #youtube = "*"
-  #vimeo = "*"
-  #vine = "*"
-  #slideshare = "*"
 
   ## SNS career oriented
   linkedin = "andrii-horobchenko-4a32bb1b8"
   #xing = "*"
 
   ## SNS news
-  #reddit = "*"
+  reddit = "YTsshfd8H5rb"
   #hackernews = "*"
 
   ## Techie
   github = "sudores"
-  #gitlab = "*"
-  #bitbucket = "*"
-  #stackoverflow = "*"
-  #serverfault = "*"
-  ## Gaming
-  #steam = "*"
-  #mobygames = "*"
-
-  ## Music
-  #lastfm = "*"
-  #discogs = "*"
 
   ## Other
   #keybase = "*"
   telegram = "tetrds"
 
+[deployment]
+# By default, files are uploaded in an arbitrary order.
+# Files that match the regular expressions in the "Order" list
+# will be uploaded first, in the listed order.
+# order = [".jpg$", ".gif$"]
+
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "master"
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+URL = "s3://?region=<AWS region>"
+
+# If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
+cloudFrontDistributionID = <ID>
