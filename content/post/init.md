@@ -1,6 +1,6 @@
 ---
 title: "Init"
-date: "2022-01-02T17:41:05+02:00"
+date: "2023-08-23T23:42:00+02:00"
 draft: false
 tags: ["about", "blog"]
 categories: ["about"]
