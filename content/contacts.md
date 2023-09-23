@@ -6,6 +6,8 @@ draft: false
 
 # A bit of my contacts
 
+Feel free to reach me out!
+
 telegram:  [@tetrds](https://t.me/tetrds)  
 linkedin:  [link](https://www.linkedin.com/in/andrii-horobchenko-4a32bb1b8/)  
 email:     [gas@cock.li](mailto:gas@cock.li)  

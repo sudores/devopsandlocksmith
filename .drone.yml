@@ -6,15 +6,15 @@ steps:
   - name: Build clear
     image: amazon/aws-cli:latest
     commands:
-      - yum install tar gzip -y; chmod +x ./hugo; mv ./hugo /usr/local/bin;
+      - yum install tar gzip -y; 
+        curl -L -o hugo.tgz https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_linux-amd64.tar.gz;
+        tar -xf hugo.tgz;
+        chmod +x ./hugo; 
+        mv ./hugo /usr/local/bin;
       - hugo # building site
       - hugo deploy --targets=master
     when:
       branch:
       - master
-    environment:
-      AWS_ACCESS_KEY_ID:
-        from_secret: AWS_ACCESS_KEY_ID
-      AWS_SECRET_ACCESS_KEY:
-        from_secret: AWS_SECRET_ACCESS_KEY
-      AWS_REGION: 'us-east-1'
+    
+

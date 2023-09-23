@@ -39,11 +39,6 @@ pluralizelisttitles = "false"
     weight = 4
     url = "/tags/"
   [[menu.main]]
-    name = "Posts topics"
-    pre = "<i class='fas fa-hashtag fa-fw'></i>"
-    weight = 4
-    url = "/topics/"
-  [[menu.main]]
     name = "Contacts"
     pre = "<i class='fa fa-phone fa-fw'></i>"
     weight = 4
