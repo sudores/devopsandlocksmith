@@ -11,6 +11,7 @@ steps:
         tar -xf /tmp/hugo.tgz -C /tmp;
         chmod +x /tmp/hugo; 
         mv /tmp/hugo /usr/local/bin;
+      - git submodule update --init --remote --recursive;
       - hugo; # building site
       - hugo deploy;
     when:
