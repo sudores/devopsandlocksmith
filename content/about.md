@@ -4,15 +4,31 @@ date: 2022-01-02T17:41:05+02:00
 draft: false
 ---
 
-# About blog
-This is pretty simple blog running hugo.
-Mostly here will be tutorials, and a bit of my experience, like implementation of engineering practices and may be locksmith.
-The main purposes of creating is:
-- share my knowledge base with world
-- make my knowledge base easily accessible
-- Practice and improve my english and article writing skills
-I hope this blog will be helpful
+## Blog
 
-# About me
-I'm DevOps engineer, with interests in programming, DevOps, management and metalwork, especially knifemaking. 
-Now i'm working as Sysadmim/DevOps engineer at Smiddle LTD. 
+This is small blog created with [hugo](https://gohugo.io) and
+[blackburn](https://github.com/yoshiharuyamashita/blackburn).
+It's assumed that here you will be able to find some useful or at least funny
+things about IT metalwork, management, personal life automation and other things
+I'm interested in.
+I hope you will enjoy reading and find here something useful in some way.
+
+Here is the list of topics which are already here or are assumed to be here:
+
+- Personal life automation
+- Manager workdays
+- DevOps and related
+- DIY and home engineering
+- Money earning
+- Anything else I would be interested in
+- Some life stories???
+
+## Me
+
+So, hi I'm pretty surprised that someone reads this. Then here's some stuff
+about me as a person.
+I'm a DevOps engineer with interests like engineering (pretty obvious), DIY and
+metalwork especially, management, crypto, business creature and bunch of other
+stuff. Which I believe you're not interested at all.
+This section could be updated further with new details about me if they will be
+necessary.

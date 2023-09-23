@@ -12,4 +12,4 @@ email:     [gas@cock.li](mailto:gas@cock.li)
 jabber:    [lolifucker@404.city](xmpp:lolifucker@404.city)  
 gpg key:   [link](https://peegeepee.com/D89D7F694DF4BA5E347E13255CF8D6FF00BECFD8)  
 signature: [link](/contacts.md.asc)  
-
+CV:        [link](/CV_Horobchecnko_Andrii_DevOps.pdf)  

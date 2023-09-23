@@ -1,11 +1,10 @@
 ---
 title: "Init"
-date: 2023-09-22T17:21:08+03:00
+date: "2022-01-02T17:41:05+02:00"
 draft: false
-tags: []
-categories: []
+tags: ["about", "blog"]
+categories: ["about"]
+description: "What this blog will be about"
 ---
 
-# Test
-
-Just test thing
+# INIT
