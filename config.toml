@@ -53,7 +53,6 @@ pluralizelisttitles = "false"
 
   ## SNS career oriented
   linkedin = "andrii-horobchenko-4a32bb1b8"
-  #xing = "*"
 
   ## SNS news
   reddit = "YTsshfd8H5rb"
@@ -63,7 +62,7 @@ pluralizelisttitles = "false"
   github = "sudores"
 
   ## Other
-  keybase = "*"
+  keybase  = "teterds"
   telegram = "tetrds"
 
 [deployment]
