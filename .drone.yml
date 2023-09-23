@@ -7,12 +7,12 @@ steps:
     image: amazon/aws-cli:latest
     commands:
       - yum install tar gzip -y; 
-        curl -L -o hugo.tgz https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_linux-amd64.tar.gz;
-        tar -xf hugo.tgz;
-        chmod +x ./hugo; 
-        mv ./hugo /usr/local/bin;
-      - hugo # building site
-      - hugo deploy --targets=master
+        curl -L -o /tmp/hugo.tgz https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_linux-amd64.tar.gz;
+        tar -xf hugo.tgz -C /tmp;
+        chmod +x /tmp/hugo; 
+        mv /tmp/hugo /usr/local/bin;
+      - hugo; # building site
+      - hugo deploy;
     when:
       branch:
       - master
