@@ -4,9 +4,9 @@ name: devopsandlocksmith
 
 steps:
   - name: Build clear
-    image: amazon/aws-cli:latest
+    image: alpine:latest
     commands:
-      - yum install tar gzip git -y; 
+      - apk add tar gzip git curl; 
       - curl -L -o /tmp/hugo.tgz https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_linux-amd64.tar.gz;
       - tar -xf /tmp/hugo.tgz -C /tmp;
       - chmod +x /tmp/hugo; 
@@ -17,5 +17,11 @@ steps:
     when:
       branch:
       - master
+    environment:
+      AWS_ACCESS_KEY_ID:
+        from_secret: AWS_ACCESS_KEY_ID
+      AWS_SECRET_ACCESS_KEY:
+        from_secret: AWS_SECRET_ACCESS_KEY
+      AWS_REGION: 'us-east-1'
     
 
