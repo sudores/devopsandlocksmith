@@ -6,11 +6,11 @@ steps:
   - name: Build clear
     image: amazon/aws-cli:latest
     commands:
-      - yum install tar gzip -y; 
-        curl -L -o /tmp/hugo.tgz https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_linux-amd64.tar.gz;
-        tar -xf /tmp/hugo.tgz -C /tmp;
-        chmod +x /tmp/hugo; 
-        mv /tmp/hugo /usr/local/bin;
+      - yum install tar gzip git -y; 
+      - curl -L -o /tmp/hugo.tgz https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_0.118.2_linux-amd64.tar.gz;
+      - tar -xf /tmp/hugo.tgz -C /tmp;
+      - chmod +x /tmp/hugo; 
+      - mv /tmp/hugo /usr/local/bin;
       - git submodule update --init --remote --recursive;
       - hugo; # building site
       - hugo deploy;
