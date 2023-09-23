@@ -1,4 +1,4 @@
-baseURL = 'https://www.gzttk.org/'
+baseURL = 'https://gzttk.org/'
 languageCode = 'en-us'
 title = 'DevOps and Locksmith'
 theme = "blackburn"
