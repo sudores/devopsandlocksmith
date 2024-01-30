@@ -7,12 +7,6 @@ categories: ["Life Automation"]
 description: "Gettting firefly-iii budgets data to android widget"
 ---
 
-<!-- 
-TODO:
-  -  Add link to JSON Response Widget
-  -
--->
-
 # HTTP Firefly-III Budget Widget
 
 ## Foreword
@@ -39,7 +33,8 @@ But there're not such apps! You can find app to date a dragon in Siberia.
 Where you're single soul for 500 kilometers around. But not an app
 to get http response into widget.
 Or at least app to get some data from prometheus/grafana to your home screen.
-So the only app I've found for that purpose was a [JSON Response Widget]().  
+So the only app I've found for that purpose was a 
+[JSON Response Widget](https://play.google.com/store/apps/details?id=net.okitoo.free.jsonresponsewidgets&hl=en&gl=US).  
 And the problem of this app is that it was not updated for couple years.
 And you're just not allowed to install it to your modern android device from
 google play.  
@@ -83,3 +78,10 @@ straight forward.
 ```
 
 So as for now the 
+
+<!-- 
+TODO:
+  -  Add link to JSON Response Widget
+  -
+-->
+

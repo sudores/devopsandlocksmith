@@ -10,8 +10,12 @@ Feel free to reach me out!
 
 telegram:  [@tetrds](https://t.me/tetrds)  
 linkedin:  [link](https://www.linkedin.com/in/andrii-horobchenko-4a32bb1b8/)  
-email:     [gas@cock.li](mailto:gas@cock.li)  
-jabber:    [lolifucker@404.city](xmpp:lolifucker@404.city)  
-gpg key:   [link](https://peegeepee.com/D89D7F694DF4BA5E347E13255CF8D6FF00BECFD8)  
+email:     [sodiu@protnmail.com](mailto:sodiu@protonmail.com)  
+jabber:    [sudores@xmpp.jp](sudores@xmpp.jp)  
+github:    [sudores](https://github.com/sudores)
+gpg key:   [link](https://keys.openpgp.org/vks/v1/by-fingerprint/BE35A8C9344BAEAFEB4220E2EF9C4450451B1359)
 signature: [link](/contacts.md.asc)  
 CV:        [link](/CV_Horobchecnko_Andrii_DevOps.pdf)  
+omemo keys fingerprint:
++ 56045c15-346b94c1-1b5070e1-055c5705-94f02d26-ef643395-8c6015b6-28373568
++ 9c83359b-11fd1c83-6ea9acec-cc792b83-d30fbb0e-484956f1-2181b0cc-bd9b1744

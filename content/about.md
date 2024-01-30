@@ -9,7 +9,7 @@ draft: false
 This is small blog created with [hugo](https://gohugo.io) and
 [blackburn](https://github.com/yoshiharuyamashita/blackburn).
 It's assumed that here you will be able to find some useful or at least funny
-things about IT metalwork, management, personal life automation and other things
+things about IT, metalwork, management, personal life automation and other things
 I'm interested in.
 I hope you will enjoy reading and find here something useful in some way.
 
@@ -21,7 +21,6 @@ Here is the list of topics which are already here or are assumed to be here:
 - DIY and home engineering
 - Money earning
 - Anything else I would be interested in
-- Some life stories???
 
 ## Me
 
