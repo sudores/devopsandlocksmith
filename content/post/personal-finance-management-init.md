@@ -3,8 +3,8 @@ title: "Personal Finance Management. Init"
 date: "2024-04-10T20:46:10+03:00"
 draft: false
 tags: ["finance", "init"]
-categories: ["Finance"]
-description: "Personal finance in a short. The hard way"
+categories: ["Finance", "PersonalFinanceManagement"]
+description: "Personal finance in a short. The hard way. Init"
 ---
 
 # Personal Finance Management. Init
