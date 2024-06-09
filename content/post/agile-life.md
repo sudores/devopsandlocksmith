@@ -1,6 +1,6 @@
 ---
 title: "Agile Life"
-date: "2024-07-8T15:21:01+03:00"
+date: "2024-06-08T15:21:01+03:00"
 draft: true
 tags: ["TaskManagement", "Agile"]
 categories: ["TaskManagement"]
