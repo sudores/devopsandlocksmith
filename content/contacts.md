@@ -9,8 +9,8 @@ draft: false
 Feel free to reach me out!
 
 telegram:  [@tetrds](https://t.me/tetrds)  
-linkedin:  [link](https://www.linkedin.com/in/andrii-horobchenko-4a32bb1b8/)  
-email:     [sodiu@protnmail.com](mailto:sodiu@protonmail.com)  
+linkedin:  [link](https://www.linkedin.com/in/andrii-horobchenko)  
+email:     [horobcenko.a@gmail.com](mailto:horobcenko.a@gmail.com)  
 jabber:    [sudores@xmpp.jp](sudores@xmpp.jp)  
 github:    [sudores](https://github.com/sudores)
 gpg key:   [link](https://keys.openpgp.org/vks/v1/by-fingerprint/BE35A8C9344BAEAFEB4220E2EF9C4450451B1359)
