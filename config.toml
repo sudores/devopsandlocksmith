@@ -44,25 +44,25 @@ pluralizelisttitles = "false"
     weight = 4
     url = "/contacts/"
 
-[social]
+[params.social]
   # Link your social networking accounts to the side menu
   # by entering your username or ID.
 
   # SNS microblogging
-  #twitter = "*"
+  twitter = "*"
 
   ## SNS career oriented
   linkedin = "andrii-horobchenko"
 
   ## SNS news
-  reddit = "YTsshfd8H5rb"
-  #hackernews = "*"
+  # reddit = ""
+  # hackernews = "*"
 
   ## Techie
   github = "sudores"
 
   ## Other
-  keybase  = "teterds"
+  # keybase  = ""
   telegram = "tetrds"
 
 [deployment]
