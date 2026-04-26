@@ -49,7 +49,7 @@ pluralizelisttitles = "false"
   # by entering your username or ID.
 
   # SNS microblogging
-  twitter = "*"
+  # twitter = "*"
 
   ## SNS career oriented
   linkedin = "andrii-horobchenko"
